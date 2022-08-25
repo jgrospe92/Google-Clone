@@ -11,12 +11,12 @@
   --pinned_icon_bg: white;
 }
 
+body {
+  height: 100vh;
+}
 
 .container{
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  height: 100vh;
+  height: 100%;
   background-image: url(../img/tower_bg.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -70,7 +70,8 @@ a {
 .searchBody {
   flex: 1;
   display: flex;
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -121,6 +122,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 10rem;
 }
 .favorites{
   display: flex;
