@@ -13,10 +13,14 @@
 
 
 # Desktop view
+<p align=center>
 <img src="img/desktopView.png" alt="Desktop view">
+</p>
 
 # Mobile view
-<img src="img/mobileView.png" alt="Desktop view">
+<p align=center>
+<img src="img/mobileView.png" alt="Desktop view" height="300">
+</p>
 
 ## Credits
 - Thanks to Kaolin Stacey for sharing me the ajax live search implementation.
