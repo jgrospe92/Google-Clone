@@ -88,6 +88,25 @@ a {
   height: 100px;
 }
 
+.suggestions {
+  width: 75vw;
+  background-color: white;
+  position: absolute;
+  z-index: 99;
+  max-width: 620px;
+}
+
+.suggestionDiv {
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+.suggestionDiv span {
+  user-select: none;
+}
+.suggestionsDiv:hover {
+  background-color: rgb(214, 233, 238);
+}
 
 
 .searchInput{
@@ -97,7 +116,7 @@ a {
   background-color: var(--pinned_icon_bg);
   height: 30px;
   padding: 10px 20px;
-  border-radius: 999px;
+  border-radius: 3%/50%;
   width: 75vw;
   margin: 0 auto;
   margin-top: 40px;
