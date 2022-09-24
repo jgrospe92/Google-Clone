@@ -23,4 +23,5 @@
 </p>
 
 ## Credits
-- Thanks to Kaolin Stacey for sharing me the ajax live search implementation.
+- Thanks to [Kaolin Stacey](https://github.com/Kaolinnie) for sharing me the ajax live search implementation.
+
